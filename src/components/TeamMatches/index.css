@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.match-bg-container {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 30px;
+  padding-top: 0px;
+  width: 100%;
+}
+
+.team-head-container {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.selected-image {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.match-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.rcb {
+  background-color: #a4261d;
+}
+
+.kkr {
+  background-color: #5755a7;
+}
+
+.kxp {
+  background-color: #d91c1f;
+}
+
+.csk {
+  background-color: #f7db00;
+}
+
+.rr {
+  background-color: #da237b;
+}
+
+.mi {
+  background-color: #13418b;
+}
+
+.sh {
+  background-color: #f26d22;
+}
+
+.dc {
+  background-color: #4f5db0;
+}

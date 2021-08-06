@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.error-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+.error-output {
+  color: #fff;
+  font-family: 'Bree serif';
+  font-size: 45px;
+  font-weight: bold;
+}

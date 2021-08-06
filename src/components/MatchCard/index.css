@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.each-match-card {
+  background-color: #0f172a;
+  height: 270px;
+  width: 200px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  padding: 10px;
+}
+
+.each-match-logo {
+  height: 60px;
+  width: 60px;
+  padding-bottom: 5px;
+}
+
+.team-name {
+  color: #fff;
+  font-family: 'Bree serif';
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.result {
+  color: #fff;
+  font-family: 'Bree serif';
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+}
+
+.green {
+  color: #18ed66;
+  font-family: 'Bree serif';
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.red {
+  color: #e31a1a;
+  font-family: 'Bree serif';
+  font-weight: 600;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .each-match-card {
+    background-color: #0f172a;
+    height: 190px;
+    width: 110px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  .each-match-logo {
+    height: 40px;
+    width: 40px;
+    padding-bottom: 5px;
+  }
+
+  .team-name {
+    font-size: 12px;
+    padding-bottom: 0px;
+  }
+
+  .result {
+    font-size: 10px;
+    padding-bottom: 0px;
+  }
+
+  .green {
+    font-size: 10px;
+    padding-bottom: 0px;
+  }
+  .red {
+    font-size: 10px;
+    padding-bottom: 0px;
+  }
+}

@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.list-items-container {
+  height: 100px;
+  width: 130px;
+  background-color: #ffffff33;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-items-container {
+    height: 170px;
+    width: 250px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .list-items-container {
+    height: 125px;
+    width: 380px;
+  }
+}
+
+.team-name-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+}
+
+.team-logo {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-logo {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .team-logo {
+    height: 60px;
+    width: 70px;
+  }
+  .team-name {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+}
+
+.team-name {
+  color: #fff;
+  font-family: 'Bree serif';
+  font-size: 13px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 22px;
+  }
+}
